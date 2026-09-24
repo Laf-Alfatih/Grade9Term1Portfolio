@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projectContainer.css">
+    <script src="app.js" defer></script>
+    <title>Hi, I'm Al! a fellow SBRian</title>
+</head>
+<body>
+    <div class="globalWrapper">
+        <header>
+            <span class="subtext defaultState">Filsdeeriz Lafirza Alfatih Razak</span>
+            <div class="headerSection1">
+                <span class="title defaultState">
+                    <span class="secondary">
+                        A deapdive into the journey of an
+                    </span>
+                    <span class="defaultState main">SBR Student</span>
+                </span>
+                <span class="description defaultState">
+                    An extraordinary journey of my SBR journey throughout the third term in year 9
+                </span>
+            </div>
+            <div class="headerSection3">
+                <span class="quote defaultState">
+                    "It's only a <span>failure</span> if you don't <span>try again</span>""
+                </span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="currentPage buttonElement">Home</a></li>
+                    <li><a href="MyCas/mycas.html" class="buttonElement">MYCAS</a></li>
+                    <li><a href="AreasOfImprovement/aoi.html" class="buttonElement">Areas of improvement</a></li>
+                    <li><a href="Goals/goals.html" class="buttonElement">Goals</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- HOW TO USE PROJECT STYLE SYSTEM -->
+            <!-- Styles have 2 common attributes, data-gridArea and data-style (which chooses what css properties to apply) -->
+            <!-- STYLE 1: -->
+            <!--    ATTRIBUTES: data-imgUrl, data-projectTitle, data-projectDescription -->
+            <!--    USECASE: if you want to showcase an image of the project, a detailed description, and the title of the project -->
+
+            <!-- EXAMPLE
+            <div class="image1 projectContainer" data-gridArea="1/2/2/4" data-style="1" data-imgUrl="images/projects/English/Buton\ Island.jpg"
+                    data-projectDescription="This is a project that collaborates with music in order to create an advertisement about an eco-tourism attraction. In the project I shose to advertise buton island because it is my home island where my parents were born. I created the advertisement script with passive voice and persuasiv techniques to catch the viewers attention. "
+                    data-projectTitle="Eco-tourism Advert"></div>
+                    <div class="image2 projectContainer" data-gridArea="1/1/2/2" data-style="2" data-imgUrl="images/projects/English/ESLMusicScript.png" data-projectTitle="Project Script" data-titleLink="https://docs.google.com/document/d/e/2PACX-1vQKWKErDOZJKrRnjbsBI9YEvG20J4FvXsbkhKsAbTpRHsPYvjI5yUzUns3Aq_b5JvZSg3cPsgTE-Af4/pub"></div>
+            -->
+
+            <div class="english subject">
+                <div class="heading">
+                    <span class="title defaultState">First Language English</span>
+                    <span class="description defaultState">
+                        In this term, I progressed my reading skills and abilities by learning reading strategies such as close reading and pre-reading, while refining my skimming and scanning skills
+                    </span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="3/1" data-rows="1fr" data-columns="1fr 1fr 1fr">
+
+                    <div class="image1 projectContainer" data-gridArea="1/2/2/4" data-style="1" data-imgUrl="images/projects/English/MBB.webp"
+                    data-projectDescription="
+                    Collaborated with a team to research and create a presentation on actress and UNICEF Goodwill Ambassador Millie Bobby Brown. Focused on gathering and structuring her major career achievements and philanthropic impact, while demonstrating strong communication and teamwork throughout the project.
+                    "
+                    data-projectTitle="Young Inspiring Celebrity Presentation"></div>
+
+                    <div class="image2 projectContainer" data-gridArea="1/1/2/2" data-style="2" data-imgUrl="images/projects/English/presentation.png" data-projectTitle="Presentation  Slides" data-titleLink="https://canva.link/v9wgh5hoyoebb3b"></div>
+                </div>
+            </div>
+            <div class="globalPerspectives subject">
+                <div class="heading">
+                    <span class="title defaultState">Global Perspectives Work</span>
+                    <span class="description defaultState">In global perspectives, we learned about sports and recreation. I focused on Maradona's contreversial hand of god goal in my project and classwork</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="3/1" data-rows="1fr" data-columns="1fr 1fr 1fr">
+                    <div class="projectContainer" data-gridArea="1/1/2/3" data-style="1" data-imgUrl="images/projects/GP/maradonaHandball.jpeg" data-projectTitle="Maradona's Handball Essay"
+                    data-projectDescription="Researched and authored a multi-paragraph historical essay analyzing the controversies, media perspectives, and global impact surrounding Diego Maradona's famous 'Hand of God' goal at the 1986 FIFA World Cup. Evaluated primary and secondary sources to examine the event from multiple viewpoints and structured a balanced, well-cited historical argument."></div>
+
+                    <div class="projectContainer" data-gridArea="1/3/2/4" data-style="2" data-imgUrl="images/projects/GP/MaradonaHandballSlides.png" data-projectTitle="Video Product" data-titleLink="https://www.canva.com/design/DAHCYdkd4Ns/xMPGjr4_3Knn4INX88so3w/watch?utm_content=DAHCYdkd4Ns&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h267559dee6"></div>
+                </div>
+            </div>
+            <div class="history subject">
+                <div class="heading">
+                    <span class="title defaultState">History Work</span>
+                    <span class="description defaultState">Understanding the treaty of versailes and how the big 3's Leaders, Gearoge clemenceau from france, David Loyd Gearoge from Great Brtiain, and Woodrow Wilson from Th United States of America had different perspectives on how harsh germany should be punished with the treaty of versailes.</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="3/1">
+                    <div class="projectContainer" data-style="1" data-imgUrl="images/projects/history/George.webp" data-projectTitle="WW1 Essay" 
+                    data-projectDescription="
+                    This Grade 9 history project explores how domestic pressure influenced the Big Three's decisions during the 1919 Treaty of Versailles[cite: 1, 2]. The research evaluates how public expectations and elections shaped harsh political stances, while contrasting them with broader national security needs, economic realities, and leadership ideologies. The project incorporates primary-source political cartoons and academic scholarship by historians like Margaret MacMillan and Alan Sharp to build a balanced, evidence-based historical argument
+                    "></div>
+                </div>
+            </div>
+            <div class="science subject">
+                <div class="heading">
+                    <span class="title defaultState">Science Work</span>
+                    <span class="description defaultState">In all science subjects I learned deeply about advanced topics such as enzymes, human nutrition and biomolecules in biology, moment, preasure, and density in physics, and chemical bonds such as metalic bonding in chemistry</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="1/1" data-rows="1fr 1fr 1fr" data-columns="1fr 1fr 1fr">
+                    <div class="projectContainer" data-style="1" data-gridArea="1/1/2/4" data-projectTitle="Biology" data-imgUrl="images/projects/biology/Biology.jpeg"
+                    data-projectDescription="This biology project explored enzyme kinetics through a controlled experiment investigating how the enzyme amylase catalyzes the breakdown of starch into simpler sugars. I designed the procedure, collected and analyzed quantitative reaction data, and compiled the findings into a formal scientific lab report that demonstrated rigorous data evaluation and technical writing skills."></div>
+                    <div class="projectContainer" data-style="1" data-gridArea="2/1/3/4" data-projectTitle="Chemistry" data-imgUrl="images/projects/chemistry/chem.jpeg"
+                    data-projectDescription="This chemistry project involved investigating phase changes by experimentally determining the melting and freezing points of stearic acid. Using a controlled water bath, thermometer, and stopwatch, I recorded cooling and heating curves over time to analyze phase transitions, thermal energy transfer, and the latent heat associated with melting and solidification."></div>
+                    <div class="projectContainer" data-style="1" data-gridArea="3/1/4/4" data-projectTitle="Physics" data-imgUrl="images/projects/physics/physics.png"
+                    data-projectDescription="This physics project investigated Hooke's Law through an experimental study measuring the mechanical extension of a spring under varying applied loads. I collected precise force and displacement data, analyzed the linear relationship to determine the spring constant, and compiled the results into a detailed formal lab report."></div>
+                </div>
+            </div>
+            <div class="physicalEducation subject">
+                <div class="heading">
+                    <span class="title defaultState">Physical Education Work</span>
+                    <span class="description defaultState">Diving into the World of Badminton explores the fast-paced and strategic nature of this exciting racket sport. It highlights key skills such as agility, quick reflexes, and precise shot control, while also emphasizing discipline, focus, and sportsmanship both on and off the court.</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="3/1" data-rows="1fr" data-columns="1fr 1fr 1fr">
+                    <div class="projectContainer" data-gridArea="1/1/2/3" data-style="1" data-projectTitle="Badminton Poster" data-imgUrl="images/projects/PE/BadmintonPerson.jpg"
+                    data-projectDescription="Diving into the World of Badminton introduces the dynamic and strategic aspects of this thrilling racket sport. It focuses on essential abilities like speed, coordination, and accurate shot-making, while also promoting discipline, concentration, and good sportsmanship on and off the court."></div>
+                    <div class="projectContainer" data-gridArea="1/3/2/4" data-style="2" data-projectTitle="Canva" data-imgUrl="images/projects/PE/Badminton.png" data-titleLink="https://www.canva.com/design/DAG-W_xVJiM/Ji8RoNDMafWz-4AGuLXnrA/view?utm_content=DAG-W_xVJiM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0e69953ab5"></div>
+                </div>
+            </div>
+            <div class="Mathematics subject">
+                <div class="heading">
+                    <span class="title defaultState">Mathematics Work</span>
+                    <span class="description defaultState">Cambridge Stage 8 and 9 Mathematics focus on strengthening core skills in algebra, geometry, statistics, and number concepts. These stages build problem-solving abilities and prepare students for more advanced math topics and exams.</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="3/1" data-columns="1fr 1fr 1fr">
+                    <div class="projectContainer" data-style="1" data-gridArea="1/1/2/4" data-imgUrl="images/projects/Math/Math.jpg" data-projectTitle="Exam-Based Project"
+                    data-projectDescription="I completed a Cambridge Stage 8 and Stage 9 math exam-based project that focused on strengthening problem-solving and analytical skills. The project covered topics such as algebra, ratios, percentages, geometry, and basic statistics. It required applying formulas and logical reasoning to structured questions similar to exam-style problems. Overall, it helped reinforce key concepts from both stages and improved my confidence in tackling more challenging mathematical questions."></div>
+                </div>
+            </div>
+            <div class="arts subject">
+                <div class="heading">
+                    <span class="title defaultState">Arts Work</span>
+                    <span class="description defaultState">In this term, we explored the art of fonts and typography, creating our own style from several references</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="2/1">
+                    <div class="projectContainer" data-style="1" data-imgUrl="images/projects/Art/CustomFont.jpg" data-projectTitle="Making Our Own Font"
+                    data-projectDescription="This art project was about designing and creating our own custom font style. I experimented with bold, rounded letter shapes and used bright colors like red, blue, and yellow to make the letters stand out and look more playful. The goal was to explore how typography can be creative and expressive, while also keeping the letters readable. Through this project, I learned how different shapes, outlines, and color combinations can give a font its own unique personality."></div>
+                </div>
+            </div>
+            <div class="computerScience subject">
+                <div class="heading">
+                    <span class="title defaultState">Computer Science Work</span>
+                     <span class="description defaultState">Computer Science is a class where we learn about how computers work and how information is processed. In this term, we studied binary numbers, including how to convert between binary and decimal, and how to perform binary arithmetic such as addition. These topics helped us understand how computers store and calculate data using only 0s and 1s.</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="3/1" data-columns="1fr 1fr 1fr">
+                    <div class="projectContainer" data-gridArea="1/1/2/2" data-style="2" data-projectTitle="Project" data-titleLink="#" data-imgUrl="images/projects/ComputerScience/SmileSquare.png"></div>
+                    <div class="projectContainer" data-gridArea="1/2/2/4" data-style="1" data-projectTitle="Binary Drawing" data-imgUrl="images/projects/ComputerScience/binary.jpg"
+                    data-projectDescription="In this activity, we created drawings using binary code. Each square represented a pixel, where 0 meant a white pixel and 1 meant a black pixel. By following a grid of 0s and 1s, we were able to form images and understand how computers use binary numbers to display pictures on a screen. This activity helped us see how simple binary data can be used to create visual images."></div>
+                </div>
+            </div>
+            <div class="bahasaIndonesia subject">
+                <div class="heading">
+                    <span class="title defaultState">Indonesian Work</span>
+                    <span class="description defaultState">Understanding the process of creating an observational report of Laporan Hasil Observasi to strengthen our understanding of the environment around us.</span>
+                </div>
+                <div class="imageGallery" data-aspectRatio="3/1" data-columns="1fr 1fr 1fr">
+                    <div class="projectContainer" data-style="1" data-gridArea="1/1/2/4" data-projectTitle="Poster Karya Fiksi" data-imgUrl="images/projects/BahasaIndonesia/KaryaFiksi.png" 
+                    data-projectDescription="Dalam proyek ini, saya membuat sebuah poster tentang pentingnya karya fiksi. Poster ini menjelaskan bahwa karya fiksi dapat mengembangkan imajinasi, kreativitas, dan membantu pembaca memahami berbagai perasaan serta sudut pandang yang berbeda. Melalui poster ini, saya juga menyampaikan pengalaman dan perasaan saya saat membaca karya fiksi, yang membuat saya lebih tertarik untuk berimajinasi dan memahami cerita dengan lebih dalam."></div>
+                </div>
+            </div>
+        </main>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
